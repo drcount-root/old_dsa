@@ -205,16 +205,38 @@
 
 // ----------------------------------------------------
 
-function compressBoxesTwice(boxes) {
-  boxes.forEach(function (boxes) {
-    // O(n)
-    console.log(boxes);
-  });
+// function compressBoxesTwice(boxes) {
+//   boxes.forEach(function (boxes) {
+//     // O(n)
+//     console.log(boxes);
+//   });
 
-  boxes.forEach(function (boxes) {
-    // O(n)
-    console.log(boxes);
-  });
-}
+//   boxes.forEach(function (boxes) {
+//     // O(n)
+//     console.log(boxes);
+//   });
+// }
 
 // O(n + n) = O(2n) => O(n)
+
+// ----------------------------------------------------
+
+//Log all pairs of array
+
+const arr = [1, 2, 3, 4, 5];
+// let t0 = performance.now();
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr.length; j++) {
+    console.log(arr[i], arr[j]);
+  }
+}
+
+// let t1 = performance.now();
+
+// console.log(`Time taken = ${t1 - t0}`);
+
+// For nested loops => O(n) * O(n) = O(n * n) => O(n^2)
+
+// --------------------------------------------------------
+
