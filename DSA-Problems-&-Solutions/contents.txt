@@ -21,3 +21,10 @@ Should return true.
 -------------------
 ||  problem - 2  ||
 -------------------
+
+Find the pair in the array that equals the sum given.
+[1, 2, 3, 9] = 8
+[1, 2, 4, 4] = 8
+The array is sorted in order.
+A number can appear in the array more than one time. See example 2.
+Return true or false.
