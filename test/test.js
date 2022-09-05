@@ -1,12 +1,70 @@
-// Q1. JavaScript Program To Print Hello World
+// function countVowels(word) {
+//   let wordInLC = word.toLowerCase();
+//   let counter = 0;
+//   for (let i = 0; i < wordInLC.length; i++) {
+//     if (
+//       wordInLC[i] == "a" ||
+//       wordInLC[i] == "e" ||
+//       wordInLC[i] == "i" ||
+//       wordInLC[i] == "o" ||
+//       wordInLC[i] == "u"
+//     ) {
+//       counter++;
+//     }
+//   }
+//   return counter;
+// }
 
-console.log("\nJavaScript");
+// console.log(countVowels("language"));
 
-// Q2. JavaScript Program to Add Two Numbers
+// -----------------------------------------------------------------------
 
-let a = 93;
-let b = 5.7;
+// function patternPrintingI(n) {
+//   let res = "";
+//   for (let i = 1; i <= n; i++) {
+//     for (let j = 1; j <= i; j++) {
+//       res += "* ";
+//     }
+//     res += "\n";
+//   }
+//   return res;
+// }
 
-console.log(`\nSum of ${a} & ${b} is ${a + b}`);
+// console.log(patternPrintingI(4));
 
-// Q3. JavaScript Program to Find the Square Root
+// -----------------------------------------------------------------------
+
+// function cyclicRotation(n, arr, k) {
+//   for (let i = 0; i < k; i++) {
+//     let last = arr.pop();
+//     arr.unshift(last);
+//   }
+//   return arr;
+// }
+
+// console.log(cyclicRotation(5, [1, 2, 3, 4, 5], 3));
+
+// -----------------------------------------------------------------------
+
+// function patternPrintingII(n) {
+//   let res = "";
+//   for (let i = 1; i <= n; i++) {
+//     for (let j = 1; j <= i; j++) {
+//       res += "* ";
+//     }
+//     res += "\n";
+//   }
+
+//   for (let i = n - 1; i > 0; i--) {
+//     for (let j = 1; j <= i; j++) {
+//       res += "* ";
+//     }
+//     res += "\n";
+//   }
+//   return res;
+// }
+
+// console.log(patternPrintingII(5));
+
+//  --------------------------------------------------------------------------
+
