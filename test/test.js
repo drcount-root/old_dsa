@@ -68,29 +68,32 @@
 
 //  --------------------------------------------------------------------------
 
-class Player {
-  constructor(name, type) {
-    this.name = name;
-    this.type = type;
-  }
+// class Player {
+//   constructor(name, type) {
+//     this.name = name;
+//     this.type = type;
+//   }
 
-  intro() {
-    return `Hi! I'm ${this.name} & I'm a ${this.type}`;
-  }
-}
+//   intro() {
+//     return `Hi! I'm ${this.name} & I'm a ${this.type}`;
+//   }
+// }
 
-class Wiz extends Player {
-  constructor(name, type) {
-    super(name, type);
-  }
+// class Wiz extends Player {
+//   constructor(name, type) {
+//     super(name, type);
+//   }
 
-  play() {
-    return `WEEEEE.....! I'm a ${this.type}`;
-  }
-}
+//   play() {
+//     return `WEEEEE.....! I'm a ${this.type}`;
+//   }
+// }
 
-const w1 = new Wiz("Shazam", "Superhero");
-const w2 = new Wiz("Black Adam", "Anti-hero");
+// const w1 = new Wiz("Shazam", "Superhero");
+// const w2 = new Wiz("Black Adam", "Anti-hero");
 
-console.log(w2.intro());
-console.log(w2.play());
+// console.log(w2.intro());
+// console.log(w2.play());
+
+// --------------------------------------------------
+

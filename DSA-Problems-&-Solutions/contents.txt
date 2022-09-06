@@ -28,3 +28,21 @@ Find the pair in the array that equals the sum given.
 The array is sorted in order.
 A number can appear in the array more than one time. See example 2.
 Return true or false.
+
+----------------------------------------------------------
+
+-------------------
+||  problem - 3  ||
+-------------------
+
+Create a function that reverses a string/number(+/-)
+
+For example:
+
+'Hi My name is Andrei' => 'ierdnA si eman yM iH'
+
+59350200 => 205395
+
+-1589 => -9851
+
+543.2100 => 12.345
