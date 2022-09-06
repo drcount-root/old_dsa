@@ -46,3 +46,15 @@ For example:
 -1589 => -9851
 
 543.2100 => 12.345
+
+----------------------------------------------------------
+
+-------------------
+||  problem - 4  ||
+-------------------
+
+Given two arrays that are sorted. Merge them into one which will also be sorted. No duplicate items allowed in the resultant array.
+
+For example:
+[0, 3, 4, 30] & [4, 6, 31, 4] => [0, 3, 4, 6, 30, 31]
+
