@@ -58,3 +58,13 @@ Given two arrays that are sorted. Merge them into one which will also be sorted.
 For example:
 [0, 3, 4, 30] & [4, 6, 31, 4] => [0, 3, 4, 6, 30, 31]
 
+----------------------------------------------------------
+
+-------------------
+||  problem - 5  ||
+-------------------
+
+Flatten an array which includes arrays (maybe multidimentional) as items.
+
+For example:
+[[2, [4, 9]], 6, [5, 32]] => [2, 4, 9, 6, 5, 32]
