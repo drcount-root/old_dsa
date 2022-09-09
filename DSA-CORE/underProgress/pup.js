@@ -1,6 +1,8 @@
 // Convert an array of numbers into a whole integer
-// Integers : ...., -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, ....
 // Whole numbers: 0, 1, 2, 3, 4, 5, ....
+
+// For example:
+// [5, [46], [0, [2, [1]]], 730] => 546021730
 
 const theArr = [5, [46], [0, [2, [1]]], 730];
 

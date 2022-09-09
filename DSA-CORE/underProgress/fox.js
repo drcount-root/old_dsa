@@ -73,3 +73,13 @@
 // }
 
 // console.log(patternPrintingII(5));
+
+// ----------------------------------------------------------------------
+
+// function plusOne(digits) {
+//   let omitted = digits.pop();
+//   digits.push(omitted + 1);
+//   return digits;
+// }
+
+// console.log(plusOne([1, 2, 3]));

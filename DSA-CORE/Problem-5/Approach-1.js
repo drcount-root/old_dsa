@@ -22,3 +22,21 @@ const inputArr = [
 console.log(inputArr.flat(Infinity));
 // let t1 = performance.now();
 // console.log(`ET = ${t1 - t0} ms`);
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+// Use of arr.flat() => Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
+const arr = [1, [2, 3], 4, [5, [6, 7]]];
+
+const flattedArr = arr.flat();
+
+console.log(flattedArr); // arr.flat() or arr.flat(1) can only get in 1 layer deep, o/p: [1, 2, 3, 4, 5, [6, 7]]
+
+const flattedArr2 = arr.flat(2);
+
+console.log(flattedArr2); // o/p: [1, 2, 3, 4, 5, 6, 7]
+
+// Or Simply do arr.flat(Infinity) to flatten any depth
+
+console.log(arr.flat(Infinity));
