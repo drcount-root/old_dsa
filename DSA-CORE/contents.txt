@@ -92,3 +92,18 @@ Whole numbers: 0, 1, 2, 3, 4, 5, ....
 
 For example:
 [5, [46], [0, [2, [1]]], 730] => 546021730
+
+----------------------------------------------------------------------------------------------------------
+
+-------------------
+||  problem - 8  ||
+-------------------
+
+Convert a whole integer into an array
+
+For example:
+546021730 => [5, 4, 6, 0, 2, 1, 7, 3, 0]
+
+Approach - 1 : Using Array.from() method
+Approach - 2 : Using map() method (Easiest)
+Approach - 3 : Using reduce() method
