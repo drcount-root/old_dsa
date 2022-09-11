@@ -37,3 +37,23 @@ const myArr = String(myInt)
   .map((num) => Number(num));
 
 console.log(myArr);
+
+// OR
+
+// Suppose very big number to convert into array elems.
+
+function largeFactorial(n) {
+  let facto = BigInt(1);
+
+  for (let i = 2; i <= n; i++) {
+    facto *= BigInt(i);
+  }
+
+  return `${facto}`.split("").map(Number);
+}
+
+console.log(largeFactorial(0));
+
+console.log(largeFactorial(5));
+
+console.log(largeFactorial(100));

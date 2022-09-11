@@ -105,5 +105,5 @@ For example:
 546021730 => [5, 4, 6, 0, 2, 1, 7, 3, 0]
 
 Approach - 1 : Using Array.from() method
-Approach - 2 : Using map() method (Easiest)
+Approach - 2 : Using map() method (Easiest way) (Supports Converting BigInt into array elems)
 Approach - 3 : Using reduce() method
